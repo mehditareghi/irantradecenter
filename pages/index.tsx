@@ -9,9 +9,9 @@ export default function Home() {
       <div className='px-96'>
         <div className='text-center'>
           <p className='text-gray-300 pb-5 text-justify-center'>
-            Pars Hilal Caspian Company, as a private company, established Iran&apos;s business center in Armenia on a land of
-            over 18,000 square meters to develop business relations and benefit from the capacity of the powerful
-            private sector to achieve the country&apos;s export goals in one of the best business locations.
+            Pars Hilal Caspian Company, as a private company, established Iran&apos;s business center in Armenia on a
+            land of over 18,000 square meters to develop business relations and benefit from the capacity of the
+            powerful private sector to achieve the country&apos;s export goals in one of the best business locations.
           </p>
           <Link href='/contact-us' className='text-black bg-primary rounded-lg p-2 bf-i-ph-phone'>
             Contact Us
@@ -127,7 +127,7 @@ export default function Home() {
                 explicabo aspernatur quod quam sint, porro voluptas?
               </p> */}
               <Link
-                href='/Catalogue_PHC_FinalSmall_Size_min.pdf'
+                href='/Catalogue_PHC_FinalSmall_Size_min-compressed.pdf'
                 target='_blank'
                 className='text-black bg-primary rounded-lg p-2 bf-i-ph-cloud-arrow-down'
               >
