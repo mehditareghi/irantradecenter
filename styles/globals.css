@@ -12,6 +12,12 @@ h3 {
   padding-bottom: 0.5rem;
 }
 
+h1 {
+  color: rgb(64,213,221);
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
 .boxes {
   display: grid;
   gap: 1rem;
