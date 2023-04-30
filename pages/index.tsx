@@ -127,7 +127,7 @@ export default function Home() {
                 explicabo aspernatur quod quam sint, porro voluptas?
               </p> */}
               <Link
-                href='/Catalogue_PHC_FinalSmall_Size_min-compressed.pdf'
+                href='https://irantradecenter.am/wp-content/uploads/2022/12/Catalogue_PHC_FinalSmall_Size_min.pdf'
                 target='_blank'
                 className='text-black bg-primary rounded-lg p-2 bf-i-ph-cloud-arrow-down'
               >

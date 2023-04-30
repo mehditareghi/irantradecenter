@@ -1,9 +1,6 @@
 import Link from 'next/link';
-import CustomLink from './CustomLink';
-/* import styles from '@/styles/header.module.scss'; */
-/* import Logo from './Logo'; */
 
-const LogoWrapper = ({src, alt, name, url, style}) => {
+const LogoWrapper = ({src, alt, name, url, style}: any) => {
   return (
     <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
       <Link href={url} target='_blank'>

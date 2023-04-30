@@ -1,7 +1,4 @@
 import Link from 'next/link';
-import CustomLink from './CustomLink';
-/* import styles from '@/styles/header.module.scss'; */
-/* import Logo from './Logo'; */
 
 const Header = () => {
   return (

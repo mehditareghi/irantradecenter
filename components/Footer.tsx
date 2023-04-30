@@ -1,5 +1,3 @@
-/* import { Link } from './uikit'; */
-
 import Link from 'next/link';
 
 const Footer = () => {

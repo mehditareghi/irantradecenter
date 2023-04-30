@@ -1,23 +1,15 @@
-import LogoWrapper from '@/components/LogoWrapper';
-import Image from 'next/image';
-import Link from 'next/link';
+import ContactForm from '@/components/ContactForm';
 
 export default function Page() {
   return (
-    <main className={`pb-16 text-center`}>
-      <div className='px-96'>
-        <br />
-        <br />
-        <br />
-
+    <main className={`pt-24 pb-16 text-center`}>
+      <div className='px-96 flex flex-col gap-4'>
         <div className='text-center'></div>
-        <br />
-        <br />
         <div className=' bg-black text-gray-300 rounded-xl'>
           <div className='p-5'>
             <h1>About Us</h1>
           </div>
-          <article className='text-start px-8 pb-8'>
+          <article className='text-start px-24 pb-16'>
             <h2 className='font-bold text-center'>Introduction to Pars Hilal Caspian</h2>
             <p className='text-justify pb-2'>
               In the year 2021, Pars Hilal Caspian Company received permission from the Trade Development Organization
@@ -59,6 +51,11 @@ export default function Page() {
               </li>
             </ul>
           </article>
+        </div>
+
+        <div className=' bg-black text-gray-300 rounded-xl pb-6'>
+          <h3 className='p-5'>Send Us a Message</h3>
+          <ContactForm />
         </div>
       </div>
     </main>
