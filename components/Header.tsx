@@ -19,8 +19,8 @@ const Header = () => {
           <Link href='/gallery' className=''>
             Gallery
           </Link>
-          <Link href='/contact-us' className=''>
-            Contact Us
+          <Link href='/about-us' className=''>
+            About Us
           </Link>
           {/*           <Link
             href='/'

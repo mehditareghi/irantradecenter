@@ -13,8 +13,8 @@ export default function Home() {
             land of over 18,000 square meters to develop business relations and benefit from the capacity of the
             powerful private sector to achieve the country&apos;s export goals in one of the best business locations.
           </p>
-          <Link href='/contact-us' className='text-black bg-primary rounded-lg p-2 bf-i-ph-phone'>
-            Contact Us
+          <Link href='/about-us' className='text-black bg-primary rounded-lg p-2 bf-i-ph-info'>
+            About Us
           </Link>
         </div>
         <br />

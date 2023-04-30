@@ -30,8 +30,8 @@ const Footer = () => {
             <Link href='/gallery' className='block text-primary'>
               Gallery
             </Link>
-            <Link href='/contact-us' className='block text-primary'>
-              Contact Us
+            <Link href='/about-us' className='block text-primary'>
+              About Us
             </Link>
           </div>
 
