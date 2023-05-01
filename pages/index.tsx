@@ -24,7 +24,14 @@ export default function Home() {
             <div className='p-5'>
               <h3>Business Partners</h3>
               <div className=' grid grid-cols-6 grid-rows-3 items-center justify-center'>
-                <LogoWrapper src='logos/NIGC.png' alt='NIGC' name='NIGC' style='w-24' url='https://nigc.ir' />
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://nigc.ir' target='_blank'>
+                    <Image src='/NIGC.png' alt='NIGC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>NIGC</p>
+                  </Link>
+                </div>
+
+{/*                 <LogoWrapper src='logos/NIGC.png' alt='NIGC' name='NIGC' style='w-24' url='https://nigc.ir' /> */}
                 <LogoWrapper src='logos/NIGC.png' alt='NIOC' name='NIOC' style='w-24' url='https://nioc.ir' />
                 <LogoWrapper src='logos/NIGC.png' alt='NIPC' name='NIPC' style='w-24' url='https://nipc.ir' />
                 <LogoWrapper src='logos/tamin.png' alt='tamin' name='SSIC' style='w-20' url='https://ssic.ir' />
