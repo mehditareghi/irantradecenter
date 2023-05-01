@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='bg-black h-48'>
-      <div className='text-gray-300 px-96 fs-sm grid grid-cols-2 gap-8 justify-center items-center pb-2 py-2'>
+    <footer className='bg-black h-52'>
+      <div className='text-gray-300 padding-x fs-sm grid grid-cols-2 gap-8 justify-center items-center pb-2 py-2'>
         <div>
           <p className='font-bold pb-1'>Contact Info</p>
           <div className='flex justify-left gap-2'>
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='px-96'>
+      <div className='padding-x'>
         <hr className='text-gray-300 pb-2' />
         <div className='flex justify-center fs-sm text-gray-300'>Copyright &copy; 2023 | All rights reserved</div>
       </div>
