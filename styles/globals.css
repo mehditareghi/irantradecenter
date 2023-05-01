@@ -23,3 +23,8 @@ h1 {
   gap: 1rem;
   grid-template-columns: 80% 20%;
 }
+
+.padding-x {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}

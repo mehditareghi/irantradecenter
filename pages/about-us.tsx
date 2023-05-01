@@ -3,13 +3,13 @@ import ContactForm from '@/components/ContactForm';
 export default function Page() {
   return (
     <main className={`pt-24 pb-16 text-center`}>
-      <div className='px-96 flex flex-col gap-4'>
+      <div className='padding-x flex flex-col gap-4'>
         <div className='text-center'></div>
         <div className=' bg-black text-gray-300 rounded-xl'>
           <div className='p-5'>
             <h1>About Us</h1>
           </div>
-          <article className='text-start px-24 pb-16'>
+          <article className='text-start px-10 pb-10'>
             <h2 className='font-bold text-center'>Introduction to Pars Hilal Caspian</h2>
             <p className='text-justify pb-2'>
               In the year 2021, Pars Hilal Caspian Company received permission from the Trade Development Organization

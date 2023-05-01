@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <main className={`pt-24 pb-16 text-center`}>
-      <div className='px-96'>
+      <div className='padding-x'>
         <div className='text-center'></div>
 
         <div className=' bg-black text-gray-300 rounded-xl'>

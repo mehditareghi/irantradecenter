@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={`min-h-screen pb-16 text-center`}>
       <Image src='/ParsHilal.png' alt='remotion' width='1920' height='1080' className='pb-6 w-full' />
-      <div className='px-96'>
+      <div className='padding-x'>
         <div className='text-center'>
           <p className='text-gray-300 pb-5 text-justify-center'>
             Pars Hilal Caspian Company, as a private company, established Iran&apos;s business center in Armenia on a
@@ -31,66 +31,166 @@ export default function Home() {
                   </Link>
                 </div>
 
-{/*                 <LogoWrapper src='logos/NIGC.png' alt='NIGC' name='NIGC' style='w-24' url='https://nigc.ir' /> */}
-                <LogoWrapper src='logos/NIGC.png' alt='NIOC' name='NIOC' style='w-24' url='https://nioc.ir' />
-                <LogoWrapper src='logos/NIGC.png' alt='NIPC' name='NIPC' style='w-24' url='https://nipc.ir' />
-                <LogoWrapper src='logos/tamin.png' alt='tamin' name='SSIC' style='w-20' url='https://ssic.ir' />
-                <LogoWrapper src='logos/khalijfars.png' alt='PGPIC' name='PGPIC' style='w-24' url='https://pgpic.ir' />
-                <LogoWrapper src='logos/IranKhodro.png' alt='IKCO' name='IKCO' style='w-20' url='https://ikco.ir' />
-                <LogoWrapper
-                  src='logos/dokhaniat.png'
-                  alt='Iran Tobacco Company'
-                  name='Iran Tobacco Company'
-                  style='w-20'
-                  url='https://tobacco.ir'
-                />
-                <LogoWrapper src='logos/egfi.png' alt='EGFI' name='EGFI' style='w-24' url='https://egfi.ir' />
-                <LogoWrapper
-                  src='logos/mellat.png'
-                  alt='Mellat Bank'
-                  name='Mellat Bank'
-                  style='w-24'
-                  url='https://bankmellat.ir'
-                />
-                <LogoWrapper
-                  src='logos/sarmayegozari.png'
-                  alt='Invest in Iran'
-                  name='Invest in Iran'
-                  style='w-24'
-                  url='https://investiniran.ir'
-                />
-                <LogoWrapper src='logos/minoo.png' alt='Minoo' name='Minoo' style='w-20' url='https://minoogroup.com' />
-                <LogoWrapper src='logos/mihan.png' alt='Mihan' name='Mihan' style='w-24' url='https://mihan-food.com' />
-                <LogoWrapper src='logos/zob.png' alt='ESCO' name='ESCO' style='w-24' url='https://esfahansteel.ir' />
-                <LogoWrapper
-                  src='logos/sang.png'
-                  alt='Iran Central Iron Ore'
-                  name='Iran Central Iron Ore'
-                  style='w-24'
-                  url='https://icioc.ir'
-                />
-                <LogoWrapper src='logos/jpc.png' alt='JPC' name='JPC' style='w-24' url='https://jpcomplex.ir' />
-                <LogoWrapper
-                  src='logos/sepahanOil.png'
-                  alt='Sepahan Oil'
-                  name='Sepahan Oil'
-                  style='w-24'
-                  url='https://sepahanoil.com'
-                />
-                <LogoWrapper
-                  src='logos/daroo.png'
-                  alt='Daroopakhsh'
-                  name='Daroopakhsh'
-                  style='w-20'
-                  url='https://dppharma.com'
-                />
-                <LogoWrapper
-                  src='logos/bahonarCopperInd.png'
-                  alt='Bahonar Copper Ind'
-                  name='Bahonar Copper Ind.'
-                  style='w-24'
-                  url='https://csp.ir'
-                />
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://nioc.ir' target='_blank'>
+                    <Image src='/NIGC.png' alt='NIOC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>NIOC</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://nipc.ir' target='_blank'>
+                    <Image src='/NIGC.png' alt='NIPC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>NIPC</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://ssic.ir' target='_blank'>
+                    <Image src='/tamin.png' alt='SSIC' width='25' height='25' className='w-20 inline-block p-2' />
+                    <p>SSIC</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://pgpic.ir' target='_blank'>
+                    <Image src='/khalijfars.png' alt='PGPIC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>PGPIC</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://ikco.ir' target='_blank'>
+                    <Image src='/IranKhodro.png' alt='IKCO' width='25' height='25' className='w-20 inline-block p-2' />
+                    <p>IKCO</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://tobacco.ir' target='_blank'>
+                    <Image
+                      src='/dokhaniat.png'
+                      alt='Iran Tobacco Company'
+                      width='25'
+                      height='25'
+                      className='w-20 inline-block p-2'
+                    />
+                    <p>Iran Tobacco Company</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://egfi.ir' target='_blank'>
+                    <Image src='/egfi.png' alt='EGFI' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>EGFI</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://bankmellat.ir' target='_blank'>
+                    <Image
+                      src='/mellat.png'
+                      alt='Mellat Bank'
+                      width='25'
+                      height='25'
+                      className='w-24 inline-block p-2'
+                    />
+                    <p>Mellat Bank</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://investiniran.ir' target='_blank'>
+                    <Image
+                      src='/sarmayegozari.png'
+                      alt='Invest in Iran'
+                      width='25'
+                      height='25'
+                      className='w-24 inline-block p-2'
+                    />
+                    <p>Invest in Iran</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://minoogroup.com' target='_blank'>
+                    <Image src='/minoo.png' alt='Minoo' width='25' height='25' className='w-20 inline-block p-2' />
+                    <p>Minoo</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://mihan-food.com' target='_blank'>
+                    <Image src='/mihan.png' alt='Mihan' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>Mihan</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://esfahansteel.ir' target='_blank'>
+                    <Image src='/zob.png' alt='ESCO' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>ESCO</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://icioc.ir' target='_blank'>
+                    <Image
+                      src='/sang.png'
+                      alt='Iran Central Iron Ore'
+                      width='25'
+                      height='25'
+                      className='w-24 inline-block p-2'
+                    />
+                    <p>Iran Central Iron Ore</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://jpcomplex.ir' target='_blank'>
+                    <Image src='/jpc.png' alt='JPC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>JPC</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://sepahanoil.com' target='_blank'>
+                    <Image
+                      src='/sepahanOil.png'
+                      alt='Sepahan Oil'
+                      width='25'
+                      height='25'
+                      className='w-24 inline-block p-2'
+                    />
+                    <p>Sepahan Oil</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://dppharma.com' target='_blank'>
+                    <Image
+                      src='/daroo.png'
+                      alt='Daroopakhsh'
+                      width='25'
+                      height='25'
+                      className='w-20 inline-block p-2'
+                    />
+                    <p>Daroopakhsh</p>
+                  </Link>
+                </div>
+
+                <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
+                  <Link href='https://csp.ir' target='_blank'>
+                    <Image
+                      src='/bahonarCopperInd.png'
+                      alt='Bahonar Copper Ind.'
+                      width='25'
+                      height='25'
+                      className='w-24 inline-block p-2'
+                    />
+                    <p>Bahonar Copper Ind.</p>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
