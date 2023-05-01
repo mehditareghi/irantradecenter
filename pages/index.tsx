@@ -29,7 +29,7 @@ export default function Home() {
                 <LogoWrapper src='logos/NIGC.png' alt='NIPC' name='NIPC' style='w-24' url='https://nipc.ir' />
                 <LogoWrapper src='logos/tamin.png' alt='tamin' name='SSIC' style='w-20' url='https://ssic.ir' />
                 <LogoWrapper src='logos/khalijfars.png' alt='PGPIC' name='PGPIC' style='w-24' url='https://pgpic.ir' />
-                <LogoWrapper src='logos/iranKhodro.png' alt='IKCO' name='IKCO' style='w-20' url='https://ikco.ir' />
+                <LogoWrapper src='logos/IranKhodro.png' alt='IKCO' name='IKCO' style='w-20' url='https://ikco.ir' />
                 <LogoWrapper
                   src='logos/dokhaniat.png'
                   alt='Iran Tobacco Company'
