@@ -2,10 +2,10 @@ import ContactForm from '@/components/ContactForm';
 
 export default function Page() {
   return (
-    <main className={`pt-24 pb-16 text-center`}>
+    <main className='main'>
       <div className='padding-x flex flex-col gap-4'>
         <div className='text-center'></div>
-        <div className=' bg-black text-gray-300 rounded-xl'>
+        <div className=' bg-custom-black text-gray-300 rounded-xl'>
           <div className='p-5'>
             <h1>About Us</h1>
           </div>
@@ -53,7 +53,7 @@ export default function Page() {
           </article>
         </div>
 
-        <div className=' bg-black text-gray-300 rounded-xl pb-6'>
+        <div className=' bg-custom-black text-gray-300 rounded-xl pb-6'>
           <h3 className='p-5'>Send Us a Message</h3>
           <ContactForm />
         </div>

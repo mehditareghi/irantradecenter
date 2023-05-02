@@ -2,14 +2,14 @@ import Image from 'next/image';
 
 export default function Page() {
   return (
-    <main className={`pt-24 pb-16 text-center`}>
+    <main className='main'>
       <div className='padding-x'>
-        <div className='text-center'></div>
+        <div className=''></div>
 
-        <div className=' bg-black text-gray-300 rounded-xl'>
+        <div className=' bg-custom-black text-gray-300 rounded-xl'>
           <div className='p-5'>
             <h3>Photo Gallery</h3>
-            <div className='grid grid-cols-3 p-6 gap-4'>
+            <div className='photos-gallery'>
               <div className=''>
                 <Image src='/gallery/Bern.png' alt='Bern' width='1920' height='1080' className='rounded-xl ' />
                 <p className='text-gray-300 fs-sm'>Bern</p>

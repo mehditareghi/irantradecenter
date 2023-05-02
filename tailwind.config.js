@@ -9,9 +9,10 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#40d5dd',
-        'background': '#191919',
+        'background': '#303030',
         'footer': '#252525',
-        'hover': '#404040'
+        'hover': '#404040',
+        'custom-black': '#121212',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

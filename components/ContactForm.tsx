@@ -66,7 +66,7 @@ const ContactForm = () => {
         ></textarea>
       </div>
       <div className='text-end px-10'>
-        <button type='submit' className='text-black bg-primary rounded-lg p-2 bf-i-ph-arrow-circle-right'>
+        <button type='submit' className='text-custom-black bg-primary rounded-lg p-2 bf-i-ph-arrow-circle-right'>
           Submit
         </button>
       </div>

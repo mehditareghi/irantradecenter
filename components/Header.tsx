@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className='text-gray-300 bg-black w-full h-16 flex items-center justify-center fixed'>
+    <header className='header'>
       <div>
         {/*         <div className='flex'></div> */}
         <nav className='text-primary flex gap-6'>
@@ -13,6 +13,9 @@ const Header = () => {
           {/*           <Link href='/' className='px-4'>
             Services
           </Link> */}
+          <Link href='/' className=''>
+            Home
+          </Link>
           <Link href='/gallery' className=''>
             Gallery
           </Link>

@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className={`min-h-screen pb-16 text-center`}>
-      <Image src='/ParsHilal.png' alt='remotion' width='1920' height='1080' className='pb-6 w-full' />
+    <main className={`min-h-screen main pt-0 text-center`}>
+      <Image src='/ParsHilal.png' alt='remotion' width='1920' height='1080' className='pb-6 banner' />
       <div className='padding-x'>
         <div className='text-center'>
           <p className='text-gray-300 pb-5 text-justify-center'>
@@ -13,17 +13,17 @@ export default function Home() {
             land of over 18,000 square meters to develop business relations and benefit from the capacity of the
             powerful private sector to achieve the country&apos;s export goals in one of the best business locations.
           </p>
-          <Link href='/about-us' className='text-black bg-primary rounded-lg p-2 bf-i-ph-info'>
+          <Link href='/about-us' className='text-custom-black bg-primary rounded-lg p-2 bf-i-ph-info'>
             About Us
           </Link>
         </div>
         <br />
         <br />
-        <div className='boxes'>
-          <div className=' bg-black text-gray-300 rounded-xl'>
+        <div className='boxes-home'>
+          <div className=' bg-custom-black text-gray-300 rounded-xl'>
             <div className='p-5'>
               <h3>Business Partners</h3>
-              <div className=' grid grid-cols-6 grid-rows-3 items-center justify-center'>
+              <div className='logos-home'>
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm hover:bg-hover'>
                   <Link href='https://nigc.ir' target='_blank'>
                     <Image src='/NIGC.png' alt='NIGC' width='25' height='25' className='w-24 inline-block p-2' />
@@ -194,7 +194,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=' bg-black text-gray-300 rounded-xl row-span-2'>
+          <div className=' bg-custom-black text-gray-300 rounded-xl row-span-2'>
             <div className='p-5'>
               <h3>Services</h3>
               <div className='flex flex-col gap-4'>
@@ -225,10 +225,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=' bg-black text-gray-300 rounded-xl'>
-            <div className='p-5'>
+          <div className=' bg-custom-black text-gray-300 rounded-xl'>
+            <div className='catalog-home'>
               <h3>Catalog</h3>
-              <Image src='/catalog.png' alt='remotion' width='150' height='150' className='inline pr-10' />
+              <Image src='/catalog.png' alt='remotion' width='150' height='150' className='inline catalog-image-home' />
               {/*               <p className='pb-4'>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero tenetur dolorem impedit numquam
                 explicabo aspernatur quod quam sint, porro voluptas?
@@ -236,16 +236,16 @@ export default function Home() {
               <Link
                 href='https://irantradecenter.am/wp-content/uploads/2022/12/Catalogue_PHC_FinalSmall_Size_min.pdf'
                 target='_blank'
-                className='text-black bg-primary rounded-lg p-2 bf-i-ph-cloud-arrow-down'
+                className='text-custom-black bg-primary rounded-lg p-2 bf-i-ph-cloud-arrow-down'
               >
                 Download Our Catalog
               </Link>
             </div>
           </div>
-          <div className=' bg-black text-gray-300 rounded-xl col-span-2'>
+          <div className=' bg-custom-black text-gray-300 rounded-xl col-span-2'>
             <div className='p-5'>
               <h3>Certificates</h3>
-              <div className='flex p-6 gap-4'>
+              <div className='certificates-home'>
                 <div>
                   <Image src='/Certificate1.png' alt='Certificate1' width='1920' height='1080' className='rounded-xl' />
                 </div>
