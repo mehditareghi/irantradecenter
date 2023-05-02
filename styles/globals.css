@@ -93,7 +93,7 @@ h3 {
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr .7fr .7fr;
   gap: 2rem;
   justify-content: center;
   align-items: start;
@@ -102,7 +102,7 @@ h3 {
 }
 
 .footer-size {
-  height: 13rem;
+  height: 13.5rem;
 }
 
 @media all and (max-width: 1400px) {
@@ -233,6 +233,6 @@ h3 {
 }
 
 .footer-size {
-  height: 18rem;
+  height: 19rem;
 }
 }
