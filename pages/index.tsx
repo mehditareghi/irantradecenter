@@ -14,7 +14,7 @@ export default function Home() {
             private sector to achieve the country&apos;s export goals in one of the best business locations.
           </p>
           <Link href='https://tpo.ir' target='_blank' className='text-custom-black bg-primary rounded-lg p-2'>
-            <Image src='/st.png' width={25} height={25} className='inline' />
+            <Image src='/st.png' width={20} height={20} className='inline' />
             <p className='inline'>   TPO.ir</p>
           </Link>
         </div>
