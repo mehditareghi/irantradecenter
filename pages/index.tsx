@@ -1,4 +1,3 @@
-import LogoWrapper from '@/components/LogoWrapper';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -9,12 +8,14 @@ export default function Home() {
       <div className='padding-x'>
         <div className='text-center'>
           <p className='text-gray-300 pb-5 text-justify-center'>
-            Pars Hilal Caspian Company, as a private company, established Iran&apos;s business center in Armenia on a
-            land of over 18,000 square meters to develop business relations and benefit from the capacity of the
-            powerful private sector to achieve the country&apos;s export goals in one of the best business locations.
+            Pars Hilal Caspian Company, as a private company, with official permission from the Trade Promotion
+            Organization of the Islamic Republic of Iran established Iran&apos;s business center in Armenia on a land of
+            over 18,000 square meters to develop business relations and benefit from the capacity of the powerful
+            private sector to achieve the country&apos;s export goals in one of the best business locations.
           </p>
-          <Link href='/about-us' className='text-custom-black bg-primary rounded-lg p-2 bf-i-ph-info'>
-            About Us
+          <Link href='https://tpo.ir' target='_blank' className='text-custom-black bg-primary rounded-lg p-2'>
+            <Image src='/st.png' width={25} height={25} className='inline' />
+            <p className='inline'>   TPO.ir</p>
           </Link>
         </div>
         <br />
@@ -245,13 +246,31 @@ export default function Home() {
               <h3>Certificates</h3>
               <div className='certificates-home'>
                 <div>
-                  <Image src='/Certificate1.png' alt='Certificate1' width='1920' height='1080' className='rounded-xl' />
+                  <Image
+                    src='/Certificate1.png'
+                    alt='Certificate1'
+                    width='1920'
+                    height='1080'
+                    className='rounded-xl certificate-single'
+                  />
                 </div>
                 <div>
-                  <Image src='/Certificate2.png' alt='Certificate2' width='1920' height='1080' className='rounded-xl' />
+                  <Image
+                    src='/Certificate2.png'
+                    alt='Certificate2'
+                    width='1920'
+                    height='1080'
+                    className='rounded-xl certificate-single'
+                  />
                 </div>
                 <div>
-                  <Image src='/Certificate3.png' alt='Certificate3' width='1920' height='1080' className='rounded-xl' />
+                  <Image
+                    src='/Certificate3.png'
+                    alt='Certificate3'
+                    width='1920'
+                    height='1080'
+                    className='rounded-xl certificate-single'
+                  />
                 </div>
               </div>
             </div>
