@@ -194,38 +194,36 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=' bg-custom-black text-gray-300 rounded-xl row-span-2'>
-            <div className='p-5'>
-              <h3>Services</h3>
-              <div className='flex flex-col gap-4'>
-                <div>
-                  <p className='bf-i-ph-presentation-chart fs-4xl text-primary'></p>
-                  <p>International Marketing</p>
-                </div>
-                <div>
-                  <p className='bf-i-ph-garage fs-4xl text-primary'></p>
-                  <p>Customs, Logistic and Inventory</p>
-                </div>
-                <div>
-                  <p className='bf-i-ph-chart-line fs-4xl text-primary'></p>
-                  <p>Investment Advice</p>
-                </div>
-                <div>
-                  <p className='bf-i-ph-bank fs-4xl text-primary'></p>
-                  <p>Financial and Banking Services</p>
-                </div>
-                <div>
-                  <p className='bf-i-ph-buildings fs-4xl text-primary'></p>
-                  <p>Company Registration</p>
-                </div>
-                <div>
-                  <p className='bf-i-ph-briefcase fs-4xl text-primary'></p>
-                  <p>Insurance Policy and Guarantee</p>
-                </div>
+          <div className=' bg-custom-black text-gray-300 rounded-xl row-span-2 p-5'>
+            <h3>Services</h3>
+            <div className='flex flex-col gap-fixer'>
+              <div>
+                <p className='bf-i-ph-presentation-chart fs-4xl text-primary'></p>
+                <p>International Marketing</p>
+              </div>
+              <div>
+                <p className='bf-i-ph-garage fs-4xl text-primary'></p>
+                <p>Customs, Logistic and Inventory</p>
+              </div>
+              <div>
+                <p className='bf-i-ph-chart-line fs-4xl text-primary'></p>
+                <p>Investment Advice</p>
+              </div>
+              <div>
+                <p className='bf-i-ph-bank fs-4xl text-primary'></p>
+                <p>Financial and Banking Services</p>
+              </div>
+              <div>
+                <p className='bf-i-ph-buildings fs-4xl text-primary'></p>
+                <p>Company Registration</p>
+              </div>
+              <div>
+                <p className='bf-i-ph-briefcase fs-4xl text-primary'></p>
+                <p>Insurance Policy and Guarantee</p>
               </div>
             </div>
           </div>
-          <div className=' bg-custom-black text-gray-300 rounded-xl'>
+          <div className=' bg-custom-black text-gray-300 rounded-xl catalog-grid'>
             <div className='catalog-home'>
               <h3>Catalog</h3>
               <Image src='/catalog.png' alt='remotion' width='150' height='150' className='inline catalog-image-home' />

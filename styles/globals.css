@@ -42,7 +42,7 @@ h3 {
 .boxes-home {
   display: grid;
   gap: 1rem;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 75% 25%;
 }
 
 .logos-home {
@@ -51,6 +51,10 @@ h3 {
   grid-template-rows: repeat(3, minmax(0, 1fr));
   align-items: center;
   justify-content: center;
+}
+
+.gap-fixer {
+  gap: 1rem;
 }
 
 .catalog-home {
@@ -79,7 +83,53 @@ h3 {
   padding-right: 20vw;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1400px) {
+  .boxes-home {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 70% 30%;
+  }
+
+  .logos-home {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gap-fixer {
+  gap: 4rem;
+}
+
+  .catalog-home {
+    padding: 1.25rem;
+  }
+
+  .catalog-image-home {
+    padding-right: 2.5rem;
+  }
+
+  .certificates-home {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 3vw;
+    gap: 1rem;
+  }
+
+  .photos-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 3vw;
+    gap: 1rem;
+  }
+
+  .padding-x {
+    padding-left: 20vw;
+    padding-right: 20vw;
+  }
+}
+
+@media all and (max-width: 950px) {
   :root {
     font-size: small;
   }
@@ -100,6 +150,10 @@ h3 {
     align-items: center;
     justify-content: center;
   }
+
+    .gap-fixer {
+  gap: 1rem;
+}
 
   .catalog-home {
     padding: 1.25rem;
