@@ -7,14 +7,14 @@ export default function Home() {
       <Image src='/ParsHilal.png' alt='remotion' width='1920' height='1080' className='pb-6 banner' />
       <div className='padding-x'>
         <div className='text-center'>
-          <p className='text-gray-300 pb-5 text-justify-center'>
+          <p className='text-gray-300 pb-5 text-start'>
             Pars Hilal Caspian Company, as a private company, with official permission from the Trade Promotion
             Organization of the Islamic Republic of Iran established Iran&apos;s business center in Armenia on a land of
             over 18,000 square meters to develop business relations and benefit from the capacity of the powerful
             private sector to achieve the country&apos;s export goals in one of the best business locations.
           </p>
           <Link href='https://tpo.ir' target='_blank' className='text-custom-black bg-primary rounded-lg p-2'>
-            <Image src='/st.png' width={20} height={20} className='inline' />
+            <Image src='/st.png' alt='TPO' width={20} height={20} className='inline' />
             <p className='inline'>   TPO.ir</p>
           </Link>
         </div>
