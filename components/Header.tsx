@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className='header'>
+    <header className='header z-10'>
       <div>
         {/*         <div className='flex'></div> */}
         <nav className='text-primary flex gap-6'>
