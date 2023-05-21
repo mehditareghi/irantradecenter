@@ -5,7 +5,7 @@ const Header = () => {
     <header className='header z-10'>
       <div>
         {/*         <div className='flex'></div> */}
-        <nav className='text-primary flex gap-6'>
+        <nav className='gradient-text flex gap-6'>
           <Link href='/'>
             <img src='/ParsLogo.png' alt='Pare Helal' width='25' height='25' className='w-6' />
             {/*           <Logo /> */}

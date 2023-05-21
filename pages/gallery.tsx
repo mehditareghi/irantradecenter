@@ -4,11 +4,12 @@ export default function Page() {
   return (
     <main className='main'>
       <div className='padding-x'>
-        <div className=''></div>
-
         <div className=' bg-custom-black text-gray-300 rounded-xl'>
           <div className='p-5'>
-            <h3>Photo Gallery</h3>
+            <div className='flex justify-center'>
+
+            <h1 className='gradient-text'>Photo Gallery</h1>
+            </div>
             <div className='photos-gallery'>
               <div className=''>
                 <Image src='/gallery/Bern.png' alt='Bern' width='1920' height='1080' className='rounded-xl ' />

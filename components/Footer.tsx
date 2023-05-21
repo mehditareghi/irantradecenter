@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='bg-custom-black fs-sm text-gray-300 footer-size'>
       <div className=' padding-x footer'>
         <div className='footer-address'>
-          <p className='font-bold pb-1'>Address</p>
+          <p className='font-bold pb-1 gradient-text'>Address</p>
           <div className='flex justify-left gap-2'>
             <p className='text-primary bf-i-ph-map-pin'></p>
             <p className='pb-2'> No 3, Fardad Alley, Sarallah St, Moghadas Ardebili St, Velenjak, Tehran, Iran</p>
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className='font-bold pb-1'>Phone</p>
+          <p className='font-bold pb-1 gradient-text'>Phone</p>
           <div className='flex justify-left gap-2'>
             <p className='text-primary bf-i-ph-phone'></p>
             <p className='pb-2'>+98 21 26 70 69 11</p>
@@ -28,7 +28,7 @@ const Footer = () => {
             <p className='pb-2'>+98 21 26 70 69 54</p>
           </div>
           <div className='pb-2'>
-            <p className='font-bold pb-1'>Social Media</p>
+            <p className='font-bold pb-1 gradient-text'>Social Media</p>
             <div className='flex justify-left gap-3'>
               <Link href='https://instagram.com/irantradecenter_am' target='_blank'>
                 <p className='text-primary bf-i-ph-instagram-logo'></p>
@@ -42,7 +42,7 @@ const Footer = () => {
 
         <div>
           <div className='pb-2'>
-            <p className='font-bold pb-1'>Useful Links</p>
+            <p className='font-bold pb-1 gradient-text'>Useful Links</p>
             <Link href='https://tpo.ir' className='block text-primary'>
               TPO
             </Link>

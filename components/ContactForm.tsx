@@ -2,7 +2,7 @@
 /* import Logo from './Logo'; */
 
 const ContactForm = () => {
-/*   const handleSubmit = async (event: any) => {
+  /*   const handleSubmit = async (event: any) => {
     event.preventDefault();
     const data = {
       name: String(event.target.name.value),
@@ -66,8 +66,8 @@ const ContactForm = () => {
         ></textarea>
       </div>
       <div className='text-end px-10'>
-        <button type='submit' className='text-custom-black bg-primary rounded-lg p-2 bf-i-ph-arrow-circle-right'>
-          Submit
+        <button type='submit' className='btn p-2'>
+          <p className='text-custom-black bf-i-ph-arrow-circle-right'>Submit</p>
         </button>
       </div>
     </form>

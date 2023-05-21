@@ -6,11 +6,11 @@ export default function Page() {
       <div className='padding-x flex flex-col gap-4'>
         <div className='text-center'></div>
         <div className=' bg-custom-black text-gray-300 rounded-xl'>
-          <div className='p-5'>
-            <h1>About Us</h1>
+          <div className='p-5 flex justify-center'>
+            <h1 className='gradient-text'>About Us</h1>
           </div>
           <article className='text-start px-10 pb-10'>
-            <h2 className='font-bold text-center'>Introduction to Pars Hilal Caspian</h2>
+            <h2 className='font-bold gradient-text'>Introduction to Pars Hilal Caspian</h2>
             <p className='pb-2'>
               In the year 2021, Pars Hilal Caspian Company received permission from the Trade Development Organization
               of IRI to establish and operate the Iranian business center in Armenia. This business center is ready for
@@ -24,7 +24,7 @@ export default function Page() {
               used for various industries, including national, pharmaceutical, health, cosmetic, food, laboratory
               equipment, medical, industrial, and agricultural industries, as well as construction industries.
             </p>
-            <h2 className='font-bold pt-2 text-center'>The goals of Pars Hilal Caspian</h2>
+            <h2 className='font-bold pt-2 gradient-text'>The goals of Pars Hilal Caspian</h2>
             <p className=''>
               The purpose of setting up the Iranian business center in Armenia is to know the market situation and
               commercial capacities and introduce them to businessmen, as well as support Iranian companies in Armenia.
@@ -54,7 +54,9 @@ export default function Page() {
         </div>
 
         <div className=' bg-custom-black text-gray-300 rounded-xl pb-6'>
-          <h3 className='p-5'>Send Us a Message</h3>
+          <div className='flex justify-center'>
+            <h3 className='p-5 gradient-text'>Send Us a Message</h3>
+          </div>
           <ContactForm />
         </div>
       </div>
