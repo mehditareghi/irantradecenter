@@ -6,6 +6,16 @@
   background-color: rgb(30, 30, 30);
 }
 
+.btn {
+  flex: 1 1 auto;
+  transition: 0.5s;
+  background: linear-gradient(90deg, rgb(64, 213, 221), rgb(19, 147, 216) 51%, rgb(64, 213, 221)) var(--x, 0) / 200%;
+  border-radius: 0.5rem;
+  border: transparent;
+}
+
+.btn:hover { --x: 100%; }
+
 .main {
   padding-top: 12vh;
   padding-bottom: 7vh;
@@ -32,13 +42,6 @@ h1 {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   width: max-content;
-}
-
-.btn {
-  background: linear-gradient(90deg, rgb(64, 213, 221), rgb(19, 147, 216));
-  color: black;
-  border: transparent;
-  border-radius: 0.5rem;
 }
 
 .grayscale {
