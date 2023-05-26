@@ -91,6 +91,13 @@ h3 {
   padding-right: 2.5rem;
 }
 
+.logistic-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+}
+
+
 .certificates-home {
   display: flex;
   padding: 3vw;

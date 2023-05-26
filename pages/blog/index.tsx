@@ -1,0 +1,58 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
+export default function Page() {
+  return (
+    <main className='main'>
+      <div className='padding-x'>
+        <div className=' bg-custom-black text-gray-300 rounded-xl'>
+          <div className='p-5 flex justify-center'>
+            <h1 className='gradient-text'>Blog</h1>
+          </div>
+          <div className='flex flex-col items-center justify-center'>
+            <Link href='/blog/register-a-company' className='block px-8 pb-4'>
+              <div className='bg-background p-4 rounded-xl'>
+                <h2 className='gradient-text font-bold'>
+                  How to register a limited liability company by foreign citizens in Armenia?
+                </h2>
+                <p className='text-start text-gray-400'>
+                  To register a company, you should go to the Armenian State Registration Office (Companies Registration
+                  Office) and the required documents are as follows...
+                </p>
+              </div>
+            </Link>
+
+            <Link href='/blog/starting-trade-with-armenia' className='block px-8 pb-4'>
+              <div className='bg-background p-4 rounded-xl'>
+                <h2 className='gradient-text font-bold'>Starting Trade with Armenia</h2>
+                <p className='text-start text-gray-400'>
+                  Armenia imports more than 5 billion dollars annually, among which two countries, China, and Russia,
+                  have a good share of this market...
+                </p>
+              </div>
+            </Link>
+
+            <Link href='/blog/tenders-of-armenia' className='block px-8 pb-4'>
+              <div className='bg-background p-4 rounded-xl'>
+                <h2 className='gradient-text font-bold'>Tenders of Armenia</h2>
+                <p className='text-start text-gray-400'>
+                  The tender portal of Armenia can be accessed through the link below. To access tender information, you
+                  must register on the relevant website and pay the membership fee...
+                </p>
+              </div>
+            </Link>
+            
+            <Link href='/blog/useful-documents' className='block px-8 pb-8'>
+              <div className='bg-background p-4 rounded-xl'>
+                <h2 className='gradient-text font-bold'>Useful Documents</h2>
+                <p className='text-start text-gray-400'>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nobis dolorem qui, dolor necessitatibus voluptatibus tempore optio velit repudiandae mollitia? Illo, similique saepe. Soluta, labore.
+                </p>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}

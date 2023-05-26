@@ -262,9 +262,10 @@ export default function Home() {
               <div className='flex justify-center'>
                 <h3 className='gradient-text'>Eurasia Logistic</h3>
               </div>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolor dolorem optio sapiente nemo at.
-              </p>
+              <div className='logistic-grid px-8'>
+                <Image src='/Eurasia-logo.png' alt='Eurasia Logistic' width='69' height='69' className='' />
+                <p className=''>Eurasia Logistics is your transportation solution</p>
+              </div>
               <Link href='/eurasia-logistic' className='btn p-2'>
                 <p className='text-custom-black bf-i-ph-airplane-in-flight'>View Logistic Services</p>
               </Link>
