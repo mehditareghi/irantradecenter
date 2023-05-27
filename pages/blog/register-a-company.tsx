@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <main className={`min-h-screen main pt-0 text-center`}>
-      <Image src='/register-now.png' alt='Register Now' width='1920' height='1080' className='pb-6 banner' />
+      <Image src='/register.png' alt='Register' width='1920' height='1080' className='pb-6 banner' />
       <div className='padding-x'>
         <div className=' bg-custom-black text-gray-300 rounded-xl'>
           <div className='p-5 flex justify-center'>
