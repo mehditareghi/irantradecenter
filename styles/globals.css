@@ -45,7 +45,7 @@ h1 {
 }
 
 .grayscale {
-  filter: grayscale(50%);
+  filter: grayscale(100%);
   transition: 0.1s ease-in-out;
 }
 
@@ -93,7 +93,7 @@ h3 {
 
 .logistic-grid {
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
   align-items: center;
 }
 

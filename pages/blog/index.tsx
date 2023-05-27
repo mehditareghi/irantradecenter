@@ -27,7 +27,7 @@ export default function Page() {
                 <h2 className='gradient-text font-bold'>Starting Trade with Armenia</h2>
                 <p className='text-start text-gray-400'>
                   Armenia imports more than 5 billion dollars annually, among which two countries, China, and Russia,
-                  have a good share of this market...
+                  have a good share of this market. Of course, for a long time...
                 </p>
               </div>
             </Link>
@@ -38,15 +38,6 @@ export default function Page() {
                 <p className='text-start text-gray-400'>
                   The tender portal of Armenia can be accessed through the link below. To access tender information, you
                   must register on the relevant website and pay the membership fee...
-                </p>
-              </div>
-            </Link>
-            
-            <Link href='/blog/useful-documents' className='block px-8 pb-8'>
-              <div className='bg-background p-4 rounded-xl'>
-                <h2 className='gradient-text font-bold'>Useful Documents</h2>
-                <p className='text-start text-gray-400'>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nobis dolorem qui, dolor necessitatibus voluptatibus tempore optio velit repudiandae mollitia? Illo, similique saepe. Soluta, labore.
                 </p>
               </div>
             </Link>

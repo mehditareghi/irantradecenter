@@ -38,22 +38,22 @@ export default function Page() {
             <h1 className='gradient-text'>Our Services</h1>
           </div>
           <div className='text-start px-10 pb-10'>
-            <table className='b-1 border-primary'>
+            <table className='b-1 border-primary border-separate rounded-xl'>
               <tbody>
-                <tr>
-                  <td className='b-1 border-primary p-2'>Unloading, loading, and storage in Armenia</td>
+                <tr className='rounded-tl-xl rounded-tr-xl'>
+                  <td className='b-1 border-primary p-2 rounded-tl-xl'>Unloading, loading, and storage in Armenia</td>
                   <td className='b-1 border-primary p-2'>Clearance of goods in Armenia</td>
-                  <td className='b-1 border-primary p-2'>Transportation in the main countries of the Eurasian region</td>
+                  <td className='b-1 border-primary p-2 rounded-tr-xl'>Transportation in the main countries of the Eurasian region</td>
                 </tr>
                 <tr>
-                  <td className='b-1 border-primary p-2'>
+                  <td className='b-1 border-primary p-2 rounded-bl-xl'>
                     Has a permanent office in Tehran, Yerevan, and the Iran-Armenia border region (Norduz border)
                   </td>
                   <td className='b-1 border-primary p-2'>
                     Ability to place all kinds of petrochemical products, minerals, fresh and frozen food, iron and
                     heavy machinery, etc.
                   </td>
-                  <td className='b-1 border-primary p-2'>
+                  <td className='b-1 border-primary p-2 rounded-br-xl'>
                     Service Center to provide parking services, repairs, accommodation for drivers, and restaurants in
                     one of the best locations in Yerevan
                   </td>

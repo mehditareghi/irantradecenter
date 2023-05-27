@@ -51,8 +51,8 @@ export default function Home() {
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://nipc.ir' target='_blank'>
-                    <Image src='/NIGC.png' alt='NIPC' width='25' height='25' className='w-24 inline-block p-2' />
-                    <p>NIPC</p>
+                    <Image src='/NIGC.png' alt='NPC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <p>NPC</p>
                   </Link>
                 </div>
 
@@ -241,11 +241,11 @@ export default function Home() {
           <div className='bg-custom-black text-gray-300 rounded-xl'>
             <div className='flex flex-col p-4 gap-2'>
               <div className='flex justify-center'>
-                <h3 className='gradient-text'>Iran Trade Center in Armenia&apos;s Catalog</h3>
+                <h3 className='gradient-text'>Iran Trade Center&apos;s Catalog</h3>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, itaque. Sit dolores molestiae unde
-                assumenda!
+              <p className='pb-4'>
+                Click on the button below for more information about the collection as well as to learn more about our
+                capacities and services
               </p>
               <Link
                 href='https://irantradecenter.am/wp-content/uploads/2022/12/Catalogue_PHC_FinalSmall_Size_min.pdf'
@@ -262,9 +262,9 @@ export default function Home() {
               <div className='flex justify-center'>
                 <h3 className='gradient-text'>Eurasia Logistic</h3>
               </div>
-              <div className='logistic-grid px-8'>
-                <Image src='/Eurasia-logo.png' alt='Eurasia Logistic' width='69' height='69' className='' />
-                <p className=''>Eurasia Logistics is your transportation solution</p>
+              <div className='logistic-grid px-4'>
+                <Image src='/Eurasia-logo.png' alt='Eurasia Logistic' width='90' height='40' className='' />
+                <p className='text-start'>Eurasia Logistics is your transportation solution</p>
               </div>
               <Link href='/eurasia-logistic' className='btn p-2'>
                 <p className='text-custom-black bf-i-ph-airplane-in-flight'>View Logistic Services</p>
