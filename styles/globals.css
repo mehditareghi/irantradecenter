@@ -97,6 +97,10 @@ h3 {
   align-items: center;
 }
 
+.custom-height {
+  height: 10vh;
+}
+
 
 .certificates-home {
   display: flex;

@@ -41,6 +41,16 @@ export default function Page() {
                 </p>
               </div>
             </Link>
+
+            <Link href='/blog/trade-regulations' className='block px-8 pb-8'>
+              <div className='bg-background p-4 rounded-xl'>
+                <h2 className='gradient-text font-bold'>Guide to trade regulations of the Eurasian Economic Union</h2>
+                <p className='text-start text-gray-400'>
+                  The Supreme Eurasian Economic Council (SEEC) is the main body of the Eurasian Economic Union, which
+                  includes the heads of member states. The meeting of the Eurasian...
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

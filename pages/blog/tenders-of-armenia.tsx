@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <main className={`min-h-screen main pt-0 text-center`}>
-      <Image src='/tenders.png' alt='Tenders' width='1920' height='1080' className='pb-6 banner' />
+      <Image src='/tenderss.png' alt='Tender' width='1920' height='1080' className='pb-6 banner' />
       <div className='padding-x'>
-        <div className=' bg-custom-black text-gray-300 rounded-xl'>
+        <div className=' bg-custom-black text-gray-300 rounded-xl mt-10'>
           <div className='p-5 flex justify-center'>
             <h1 className='gradient-text'>Tenders of Armenia</h1>
           </div>

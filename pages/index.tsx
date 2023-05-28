@@ -243,7 +243,7 @@ export default function Home() {
               <div className='flex justify-center'>
                 <h3 className='gradient-text'>Iran Trade Center&apos;s Catalog</h3>
               </div>
-              <p className='pb-4'>
+              <p className='pb-4 custom-height'>
                 Click on the button below for more information about the collection as well as to learn more about our
                 capacities and services
               </p>
@@ -262,7 +262,7 @@ export default function Home() {
               <div className='flex justify-center'>
                 <h3 className='gradient-text'>Eurasia Logistic</h3>
               </div>
-              <div className='logistic-grid px-4'>
+              <div className='logistic-grid px-4 custom-height'>
                 <Image src='/Eurasia-logo.png' alt='Eurasia Logistic' width='90' height='40' className='' />
                 <p className='text-start'>Eurasia Logistics is your transportation solution</p>
               </div>
