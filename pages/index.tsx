@@ -37,42 +37,42 @@ export default function Home() {
               <div className='logos-home'>
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://nigc.ir' target='_blank'>
-                    <Image src='/NIGC.png' alt='NIGC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <Image src='/NIGC.png' alt='NIGC' width='100' height='100' className='w-24 inline-block p-2' />
                     <p>NIGC</p>
                   </Link>
                 </div>
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://nioc.ir' target='_blank'>
-                    <Image src='/NIGC.png' alt='NIOC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <Image src='/NIGC.png' alt='NIOC' width='100' height='100' className='w-24 inline-block p-2' />
                     <p>NIOC</p>
                   </Link>
                 </div>
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://nipc.ir' target='_blank'>
-                    <Image src='/NIGC.png' alt='NPC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <Image src='/NIGC.png' alt='NPC' width='100' height='100' className='w-24 inline-block p-2' />
                     <p>NPC</p>
                   </Link>
                 </div>
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://ssic.ir' target='_blank'>
-                    <Image src='/tamin.png' alt='SSIC' width='25' height='25' className='w-20 inline-block p-2' />
+                    <Image src='/tamin.png' alt='SSIC' width='100' height='100' className='w-20 inline-block p-2' />
                     <p>SSIC</p>
                   </Link>
                 </div>
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://pgpic.ir' target='_blank'>
-                    <Image src='/khalijfars.png' alt='PGPIC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <Image src='/khalijfars.png' alt='PGPIC' width='100' height='100' className='w-24 inline-block p-2' />
                     <p>PGPIC</p>
                   </Link>
                 </div>
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://ikco.ir' target='_blank'>
-                    <Image src='/IranKhodro.png' alt='IKCO' width='25' height='25' className='w-20 inline-block p-2' />
+                    <Image src='/IranKhodro.png' alt='IKCO' width='100' height='100' className='w-20 inline-block p-2' />
                     <p>IKCO</p>
                   </Link>
                 </div>
@@ -82,8 +82,8 @@ export default function Home() {
                     <Image
                       src='/dokhaniat.png'
                       alt='Iran Tobacco Company'
-                      width='25'
-                      height='25'
+                      width='100'
+                      height='100'
                       className='w-20 inline-block p-2'
                     />
                     <p>Iran Tobacco Company</p>
@@ -92,7 +92,7 @@ export default function Home() {
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://egfi.ir' target='_blank'>
-                    <Image src='/egfi.png' alt='EGFI' width='25' height='25' className='w-24 inline-block p-2' />
+                    <Image src='/egfi.png' alt='EGFI' width='100' height='100' className='w-24 inline-block p-2' />
                     <p>EGFI</p>
                   </Link>
                 </div>
@@ -102,8 +102,8 @@ export default function Home() {
                     <Image
                       src='/mellat.png'
                       alt='Mellat Bank'
-                      width='25'
-                      height='25'
+                      width='100'
+                      height='100'
                       className='w-24 inline-block p-2'
                     />
                     <p>Mellat Bank</p>
@@ -115,8 +115,8 @@ export default function Home() {
                     <Image
                       src='/sarmayegozari.png'
                       alt='Invest in Iran'
-                      width='25'
-                      height='25'
+                      width='100'
+                      height='100'
                       className='w-24 inline-block p-2'
                     />
                     <p>Invest in Iran</p>
@@ -125,21 +125,21 @@ export default function Home() {
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://minoogroup.com' target='_blank'>
-                    <Image src='/minoo.png' alt='Minoo' width='25' height='25' className='w-20 inline-block p-2' />
+                    <Image src='/minoo.png' alt='Minoo' width='100' height='100' className='w-20 inline-block p-2' />
                     <p>Minoo</p>
                   </Link>
                 </div>
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://mihan-food.com' target='_blank'>
-                    <Image src='/mihan.png' alt='Mihan' width='25' height='25' className='w-24 inline-block p-2' />
+                    <Image src='/mihan.png' alt='Mihan' width='100' height='100' className='w-24 inline-block p-2' />
                     <p>Mihan</p>
                   </Link>
                 </div>
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://esfahansteel.ir' target='_blank'>
-                    <Image src='/zob.png' alt='ESCO' width='25' height='25' className='w-24 inline-block p-2' />
+                    <Image src='/zob.png' alt='ESCO' width='100' height='100' className='w-24 inline-block p-2' />
                     <p>ESCO</p>
                   </Link>
                 </div>
@@ -149,8 +149,8 @@ export default function Home() {
                     <Image
                       src='/sang.png'
                       alt='Iran Central Iron Ore'
-                      width='25'
-                      height='25'
+                      width='100'
+                      height='100'
                       className='w-24 inline-block p-2'
                     />
                     <p>Iran Central Iron Ore</p>
@@ -159,7 +159,7 @@ export default function Home() {
 
                 <div className='rounded-xl inline-block p-2 items-center justify-center fs-sm grayscale'>
                   <Link href='https://jpcomplex.ir' target='_blank'>
-                    <Image src='/jpc.png' alt='JPC' width='25' height='25' className='w-24 inline-block p-2' />
+                    <Image src='/jpc.png' alt='JPC' width='100' height='100' className='w-24 inline-block p-2' />
                     <p>JPC</p>
                   </Link>
                 </div>
@@ -169,8 +169,8 @@ export default function Home() {
                     <Image
                       src='/sepahanOil.png'
                       alt='Sepahan Oil'
-                      width='25'
-                      height='25'
+                      width='100'
+                      height='100'
                       className='w-24 inline-block p-2'
                     />
                     <p>Sepahan Oil</p>
@@ -182,8 +182,8 @@ export default function Home() {
                     <Image
                       src='/daroo.png'
                       alt='Daroopakhsh'
-                      width='25'
-                      height='25'
+                      width='100'
+                      height='100'
                       className='w-20 inline-block p-2'
                     />
                     <p>Daroopakhsh</p>
@@ -195,8 +195,8 @@ export default function Home() {
                     <Image
                       src='/bahonarCopperInd.png'
                       alt='Bahonar Copper Ind.'
-                      width='25'
-                      height='25'
+                      width='100'
+                      height='100'
                       className='w-24 inline-block p-2'
                     />
                     <p>Bahonar Copper Ind.</p>

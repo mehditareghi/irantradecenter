@@ -44,6 +44,12 @@ h1 {
   width: max-content;
 }
 
+.gradient-text-without-width {
+  background: linear-gradient(90deg, rgb(64, 213, 221), rgb(19, 147, 216));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .grayscale {
   filter: grayscale(100%);
   transition: 0.1s ease-in-out;
