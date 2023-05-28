@@ -18,9 +18,8 @@ export default function Page() {
             </p>
             <p className='py-2'>https://www.tender.am/en/</p>
             <p className='py-2'>
-              Tenders financed by the Asian Development Bank (ADB) are also available through the following link:
+              Tenders financed by the Asian Development Bank (ADB) are also available through <a href='https://www.adb.org/projects/tenders/country/arma' className='gradient-text-without-width'>this link</a>.
             </p>
-            <p className='py-2'>https://www.adb.org/projects/tenders/country/arma</p>
           </article>
         </div>
       </div>

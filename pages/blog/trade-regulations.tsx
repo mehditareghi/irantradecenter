@@ -65,8 +65,9 @@ export default function Page() {
                 its goals
               </li>
               <li>The main areas of activity of the Commission</li>
-              <p className='pb-2'>Visit the following site.</p>
-              <p className='pb-2'>www.eurasiancommission.org/en/pages/about.aspx</p>
+              <p className='pb-2'>
+                Visit <a href='www.eurasiancommission.org/en/pages/about.aspx' className='gradient-text-without-width'>this website</a>.
+              </p>
             </ol>
           </article>
         </div>
