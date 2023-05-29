@@ -29,6 +29,7 @@ export default function Page() {
               In the following, we refer to comprehensive information about shopping centers and industry in Armenia to
               enter this market:
             </p>
+            <p className='py-2'>(This page will be completed over time)</p>
           </article>
         </div>
         <div className=' bg-custom-black text-gray-300 rounded-xl'>

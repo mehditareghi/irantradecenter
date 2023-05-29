@@ -69,7 +69,7 @@ export default function Page() {
                   height='1080'
                   className='rounded-xl '
                 />
-                <p className='text-gray-300 fs-sm'>33 squre meters</p>
+                <p className='text-gray-300 fs-sm'>36 squre meters</p>
               </div>
             </div>
           </div>
