@@ -30,7 +30,7 @@ const Footer = () => {
           <div className='pb-2'>
             <p className='font-bold pb-1 gradient-text'>Social Media</p>
             <div className='flex justify-left gap-3'>
-              <Link href='https://instagram.com/irantradecenter_am' target='_blank'>
+              <Link href='https://instagram.com/iranworldtradecenterarmenia' target='_blank'>
                 <p className='text-primary bf-i-ph-instagram-logo'></p>
               </Link>
               <Link href='https://wa.me/+989120602647' target='_blank'>
